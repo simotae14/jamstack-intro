@@ -15,6 +15,7 @@ No dependencies, no frameworks, just Vanilla JS
 ### Section 2: Deploy a JAMstack Site
 
 - Set up Netlify CLI `yarn global add netlify-cli`
+- Login to Netlify with `netlify login`
 - Create a GitHub repository (use Hub) https://hub.github.com `git create <repo-name>`
 - Create a Netlify site connected to the GitHub repo `netlify init`
 - Push the code `git add -A`, `git commit -m 'message'`, `git push --set-upstream origin master`
@@ -24,7 +25,7 @@ No dependencies, no frameworks, just Vanilla JS
   - Make a change (add a `body` background color)
   - Add and commit the change (`git commit -am 'feat: update background color'`)
   - Push the changes (`git push origin feature-idea`)
-  - Open a pull request with Hub (`git pull-request`)
+  - Open a pull request with Hub (`git pull-request`) or (`hub pull-request`)
 - See the deploy as a preview
   - Show the live site vs. the deploy preview
 - Merge the pull request
