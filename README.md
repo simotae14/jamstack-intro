@@ -5,9 +5,9 @@ We’ll learn what the JAMstack is, what it’s capable of, and how we can use i
 ## Sections
 
 ### Section 1: Create a Basic JAMstack Site
-
+No dependencies, no frameworks, just Vanilla JS
 - Create an `index.html` with a heading and a content area
-- Use `npx serve` to load the site during development
+- Use `npx serve` to load the site during development (instead of open the html file in the browser) from the directory containing the html
 - Create a `styles.css` with basic styles
 - Create a `main.js` that loads repos from GitHub
 - Add a `link` and a `script` element to `index.html`
